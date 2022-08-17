@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family:'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300 & display=swap');
+
+:root{
+--cor0: #C5EBD6;
+--cor1: #83E1AD;
+--cor2 :#3DDC84;
+--cor3: #2FA866;
+--cor4: #063D1E;
+
+--fontepadrao: arial;
+--fonttitulo:'Open Sans', sans-serif;
+--fontandroid:'android';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor4));
+    color: white;
+    font: var(--fonttitulo) 2em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+    min-height: 150px;
+}
+
+main {
+    min-width:300px;
+    max-width:800px;
+    margin:auto;
+    padding-bottom: 20px;
+    background-color:white;
+    padding: 20px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.305);
+    border-radius:0px 0px 15px 15px;
+}
+
+
+
+header p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+header h1{
+    text-shadow: 2px 2px 5px black;
+    font-size: 3em;
+    font-family: var(--fonttitulo);
+    font-weight: bold;
+}
+
+main h2{
+    font-family:var(--fontandroid);
+    color: var(--cor4);
+    background-image: linear-gradient(to right , #3ddc8568,white);
+
+}
+
+main h3{
+    font-family:var(--fontandroid);
+    color: var(--cor4);
+    background-image: linear-gradient(to right , #3ddc8568,white);
+    font-weight: normal;
+}
+
+aside{
+    background-color: var(--cor1);
+}
+
+.diferente{
+    color: white;
+    background-color:var(--cor3);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside p{
+    text-align: justify;
+    margin: 5px;
+}
+
+div.video{
+    width:100% ;
+}
